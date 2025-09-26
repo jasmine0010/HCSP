@@ -1,0 +1,11 @@
+def sum_powers(n):
+    sum = 0
+    for i in range(n):
+        sum += 2 ** i
+    return sum
+
+print(sum_powers(0))
+print(sum_powers(1))
+print(sum_powers(2))
+print(sum_powers(3))
+print(sum_powers(4))
